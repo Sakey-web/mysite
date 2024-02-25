@@ -1,0 +1,13 @@
+# Установка кодировки
+AddDefaultCharset utf-8
+
+# Запрет листинга директории
+Options -Indexes
+
+RewriteEngine on 
+
+# Настройки ЧПУ
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*) ./?%{QUERY_STRING}
