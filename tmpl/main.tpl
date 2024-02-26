@@ -29,7 +29,7 @@
       <nav>
          <ul>
             <li><a class="nav-link" href="/">Главная</a></li>
-            <li><a class="nav-link" href="/page">Внутреняя</a></li>
+            <li><a class="nav-link" href="/page">Внутренняя</a></li>
             <li><a class="nav-link" href="contact">Контакты</a></li>
          </ul>
       </nav>
