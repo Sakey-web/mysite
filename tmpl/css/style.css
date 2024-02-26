@@ -80,11 +80,14 @@ h6 {
    color: #000;
    text-decoration: none;
    padding: 5px 10px;
-   border: 1px solid #b8b8b8;
+   border: 1px solid #e8e8e8;
+   font-size: 1rem;
+   transition: background .12s ease-out;
+   border-radius: 0.375rem;
 }
 
 .nav-link:hover {
-   background-color: #c5c5c5;
+   background-color: #eaeef1;
 }
 
 .content {
