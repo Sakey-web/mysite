@@ -44,6 +44,17 @@
 
       }
 
+      public function actionContact () {
+         $this->title = "Контакты";
+         $this->meta_desc = "Контактная информация";
+         $this->meta_key = "контакты";
+
+         $content = $this->view->render("contact", array(), true);
+
+         $this->render($content);
+
+      }
+
       protected function render($str) {
          $params = array();
          $params["title"] = $this->title;
