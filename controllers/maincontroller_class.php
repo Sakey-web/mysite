@@ -13,7 +13,7 @@
       public function action404 () {
          parent::action404();
          $this->title = "Error 404";
-         $this->meta_desc = "Error  404";
+         $this->meta_desc = "Запршенной страницы не существует.";
          $this->meta_key = "Error  404";
 
          $content = $this->view->render("404", array(), true);
@@ -34,9 +34,9 @@
       }
 
       public function actionPage () {
-         $this->title = "ВНутреняя";
-         $this->meta_desc = "ВНутреняя";
-         $this->meta_key = "ВНутреняя";
+         $this->title = "Внутренняя страница";
+         $this->meta_desc = "Внутренняя страница";
+         $this->meta_key = "Внутренняя страница";
 
          $content = $this->view->render("page", array(), true);
 
@@ -47,7 +47,7 @@
       public function actionContact () {
          $this->title = "Контакты";
          $this->meta_desc = "Контактная информация";
-         $this->meta_key = "контакты";
+         $this->meta_key = "контакты, майл";
 
          $content = $this->view->render("contact", array(), true);
 
