@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const navLinks = document.querySelectorAll('.nav-link');
   const loadingOverlay = document.querySelector('.loading-overlay');
 
+
   const showLoadingOverlay = () => {
     loadingOverlay.style.opacity = '1';
   };

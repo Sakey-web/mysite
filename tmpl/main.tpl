@@ -30,14 +30,14 @@
          <ul>
             <li><a class="nav-link" href="/">Главная</a></li>
             <li><a class="nav-link" href="/page">Внутренняя</a></li>
-            <li><a class="nav-link" href="contact">Контакты</a></li>
+            <li><a class="nav-link" href="/contact">Контакты</a></li>
          </ul>
       </nav>
       <main>
          <div class="d-flex" id="content"><?= $content ?></div>
       </main>
    </div>
-   <footer class="container-xl p-responsive">С уважением команда нашего сайта.</footer>
+   <footer class="container-xl p-responsive">© 2024, С уважением команда нашего сайта.</footer>
    <div class="loading-overlay">
       <div class="loading-text">Загрузка...</div>
    </div>
